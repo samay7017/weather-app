@@ -1,12 +1,19 @@
 import { getNodeText } from "@testing-library/react";
 import styled from "styled-components";
+import suns from "/icons/sunset.png";
+import sunr from "/icons/sunrise.png";
+import humid from "/icons/humidity.png";
+import win from "/icons/wind.png";
+import press from  "/icons/pressure.png";
+
+
 
 const WeatherInfoIcons = {
-sunset : "/icons/sunset.png",
-sunrise : "/icons/sunrise.png",
-humidity: "/icons/humidity.png",
-wind : "/icons/wind.png",
-pressure : "/icons/pressure.png"
+sunset : suns,
+sunrise :sunr ,
+humidity:humid ,
+wind :win ,
+pressure press:
 };
 
 const WeatherCondition = styled.div`
