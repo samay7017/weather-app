@@ -42,7 +42,7 @@ margin-bottom: 35px;
 const CityComponent =({setCity ,fetchWeather})=>{
     return(
         <>
-        <Weatherlogo src="/icons/mainlogo.png"></Weatherlogo>
+        <Weatherlogo src="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-512.png"></Weatherlogo>
         <Choosecity>enter your city</Choosecity>
         <Inputbox onSubmit={fetchWeather}>
             <input onChange={(e)=>{setCity(e.target.value)}} placeholder="enter your city name"></input>
